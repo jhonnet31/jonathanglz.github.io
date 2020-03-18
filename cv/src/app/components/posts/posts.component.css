@@ -1,0 +1,29 @@
+section{
+    position: relative;
+    height: 100%;
+}
+section p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#posts-container{ 
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#posts-container article{
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+    
+}
+.img-post{
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.img-post p{
+    line-height: 0px;
+}

@@ -1,0 +1,23 @@
+<section>
+    <p>ULTIMOS ARTICULOS</p>
+    <div id="posts-container">
+        <article *ngFor="let post of posts">
+            <mat-card >
+                <mat-card-header>
+                  <div mat-card-avatar class="img-post"><p>JG</p></div>
+                  <mat-card-title>{{post.title}}</mat-card-title>
+                  <mat-card-subtitle>{{post.published_at|date:'yy-MM-dd'}}</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image [src]="post.feature_image" alt="post.title">
+                <mat-card-content>
+                  <p>
+                    {{post.excerpt}}
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <a [href]="post.url" target="_blank"><button mat-raised-button color="primary">Leer articulo</button></a>
+                </mat-card-actions>
+              </mat-card>
+        </article>
+    </div>  
+</section>

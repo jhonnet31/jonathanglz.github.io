@@ -1,0 +1,53 @@
+footer{
+    background-image: url(../../../assets/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 80%;
+    position: relative;
+}
+
+#copyright{
+    position: absolute;
+    bottom: 20px;
+    width: 98%;
+}
+
+footer p{
+    text-align: center;
+    color:#716767;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#form{
+    position: relative;
+    width: 80%;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-media, #contact{
+    
+    width: 45%;
+    
+}
+
+
+/*----FORMULARIO----*/
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }

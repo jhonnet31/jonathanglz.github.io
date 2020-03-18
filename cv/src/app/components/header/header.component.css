@@ -1,0 +1,97 @@
+
+header{
+    display: flex;
+    position: relative;
+    height: 100%;
+    
+    /* justify-content: start; */
+}
+
+.flex{
+  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .header{
+      height: 100px;
+      width: 80%;
+      background-color: transparent;
+     
+  }
+
+  #logo{
+
+    /* position: relative; */
+
+    padding: 1rem;
+    /* background-color: #1d1d1d; */
+    /* width: 90px;
+    min-width: 80px;
+    word-wrap: break-word;
+    white-space:normal;
+    color:#ffffff; */
+
+  }
+  #logo img{
+      width: 130px;
+      height: 140px;
+
+  }
+
+  nav{
+      min-width: 50%;
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  nav a{
+      color:#1d1d1d;
+      font-size: 16px;
+      padding: 1rem;
+      transition: all .5s;
+  }
+  .hover:hover,.active{
+    background-color:#1d1d1d;
+    color: #fff !important;
+  }
+ 
+
+  #name{
+      font-size:4rem;
+      font-weight: bold;
+
+  }
+  #detail{
+      white-space:normal;
+      line-height: 35px;
+      color:#716767;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 16px;
+  }
+
+  .half{
+      position: relative;
+      width: 55%;
+  }
+  .width{
+      width: 75%;
+  }
+  #photo{
+      height: 100%;
+      min-height: 100%;
+      position: relative;
+  }
+
+  .half-photo{
+      position: relative;
+    width: 45%;
+  }
+
+  #photo img{
+      height: 100%;
+      width: 100%;
+  }
+ 
+ 
